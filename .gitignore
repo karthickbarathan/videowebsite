@@ -1,5 +1,8 @@
-# Maven build folder
-target/
+# Ignore everything in target
+target/*
+
+# BUT allow jar file (IMPORTANT)
+!target/*.jar
 
 # Logs
 *.log
@@ -7,8 +10,7 @@ target/
 # Compiled files
 *.class
 
-# Environment variables file (if you ever use .env)
+# Env files
 .env
 
-# Spring Boot config (IMPORTANT if you store secrets here)
-application.properties
+# Optional (only if storing secrets there)
