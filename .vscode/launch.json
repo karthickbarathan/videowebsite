@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-VideowebsiteApplication<videowebsite>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.mrk.videowebsite.VideowebsiteApplication",
+            "projectName": "videowebsite",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

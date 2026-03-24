@@ -1,0 +1,14 @@
+# Maven build folder
+target/
+
+# Logs
+*.log
+
+# Compiled files
+*.class
+
+# Environment variables file (if you ever use .env)
+.env
+
+# Spring Boot config (IMPORTANT if you store secrets here)
+application.properties
